@@ -6,3 +6,35 @@
 {{! Dev branch: Common ground between the group! }}
 
 {{! How to create a new branch? -> git checkout -b <name-of-the-branch> }}
+
+  {{!-- BASES:
+  to push code online:
+  git add .
+  git commit -m "with a message"
+  git push
+
+  if youre working with more people, you should have branches
+  how to create a branch:
+  git checkout -b name-of-branch
+  how to move between branches (that already exist)
+
+  git checkout name-of-branch
+
+  the first time you try to push ona new brach:
+  if you do 
+  git push -> ⛔️ its going to fail
+  it will tell you that that branch doesnt exist on the "remote origin" yet. what this means, is that online that branch doesnt exist:
+  solution:
+  git push -u origin name-of-your-branch
+
+
+  when you are ready to merge with your partner:
+  git checkout (for example) dev
+  git pull (just in case your partner wrote some code before)
+  git merge name-of-your-branch (deal with any possible conflicts)
+
+  git push
+
+  git checkout back-to-your-branch
+  git merge dev (for example)
+   --}}
